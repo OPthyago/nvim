@@ -27,7 +27,8 @@ require("lazy").setup({
 	require("plugins.alpha"),
 	require("plugins.indent-blankline"),
 	require("plugins.misc"),
-  require("plugins.prettier")
+  require("plugins.prettier"),
+  require("plugins.gitblame")
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
